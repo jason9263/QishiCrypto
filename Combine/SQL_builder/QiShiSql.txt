@@ -1,0 +1,26 @@
+CREATE TABLE IF NOT EXISTS huobiohlcv 
+  ( 
+     id            INTEGER auto_increment, 
+     timestamp     VARCHAR(40) NOT NULL, 
+     open_price    FLOAT NOT NULL, 
+     highest_price FLOAT NOT NULL, 
+     lowest_price  FLOAT NOT NULL, 
+     closing_price FLOAT NOT NULL, 
+     volume        FLOAT, 
+     PRIMARY KEY (id) 
+  ); 
+
+
+
+
+  CREATE TABLE IF NOT EXISTS binanceohlcv 
+  ( 
+     id            INTEGER auto_increment, 
+     timestamp     VARCHAR(40) NOT NULL, 
+     open_price    FLOAT NOT NULL, 
+     highest_price FLOAT NOT NULL, 
+     lowest_price  FLOAT NOT NULL, 
+     closing_price FLOAT NOT NULL, 
+     volume        FLOAT, 
+     PRIMARY KEY (id) 
+  ); 
